@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent any{label 'java'}
     stages {
        stage('clone the app') {
             steps {
